@@ -1,0 +1,52 @@
+{
+    "controller": {
+        "device_type": "Xbox Controller",
+        "device_index": 0
+    },
+    "capture": {
+        "monitor_index": 0,
+        "target_fps": 60,
+        "capture_size": 640,
+        "stream_resolution": "source"
+    },
+    "aimbot": {
+        "enabled": false,
+        "detection_mode": "AI",
+        "color_target": "purple",
+        "color_thresh": 0.18,
+        "color_offset": 31,
+        "target_offset_x": 0,
+        "region_type": "Center",
+        "region_width": 340,
+        "region_height": 230,
+        "shape_sides": 0,
+        "detection_type": "Shapes",
+        "shape_roundness": 0.9,
+        "shape_combine": 0,
+        "shape_dimentions": "Any",
+        "min_shape_size": 30,
+        "max_shape_size": 200,
+        "auto_fire": false,
+        "fov": 100,
+        "tracking_speed": 0.93,
+        "sticky_bubble_speed": 0.59,
+        "deadzone": 0.14,
+        "target_offset": 0.2,
+        "anti_recoil_strength": 0.0,
+        "restrict_manual_aiming": 0.75,
+        "activation_mode": "ADS or Shoot",
+        "speed_preset": "Balanced",
+        "speed_curve": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    }
+}

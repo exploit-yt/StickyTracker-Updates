@@ -1,0 +1,61 @@
+{
+    "controller": {
+        "device_type": "Xbox Controller",
+        "device_index": 0
+    },
+    "capture": {
+        "monitor_index": 0,
+        "target_fps": 0,
+        "quality_level": "source",
+        "capture_size": 256,
+        "stream_resolution": "source"
+    },
+    "aimbot": {
+        "enabled": true,
+        "model_name": "Fortnite_CoJu1Tb.onnx",
+        "conf_threshold": 0.25,
+        "iou_threshold": 0.35,
+        "fov": 103,
+        "smooth": 0,
+        "target_offset": 0.25,
+        "deadzone": 0.01,
+        "ingame_sens": 7,
+        "tracking_speed": 1.78,
+        "sticky_bubble_speed": 0.1,
+        "anti_recoil_strength": 14,
+        "speed_preset": "Close Aggressive",
+        "speed_curve": [
+            2,
+            1.8,
+            1.5,
+            1.2,
+            1,
+            0.8,
+            0.6,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "restrict_manual_aiming": 0.36,
+        "sticky_confidence": 0.35,
+        "color_ignore_enabled": false,
+        "color_ignore": "#001eff",
+        "detection_mode": "AI",
+        "color_thresh": 0.2,
+        "color_offset": 25,
+        "auto_fire": false,
+        "color_target": "purple",
+        "shape_roundness": 0.78,
+        "flipped_triggers": false,
+        "prediction_enabled": true,
+        "prediction_filter": "Linear",
+        "prediction_amount": 2.8,
+        "latency_comp_enabled": true,
+        "pid_enabled": false,
+        "pid_kp": 0.73,
+        "latency_delay_ms": 300,
+        "latency_smooth_factor": 0.01,
+        "pid_kd": 0,
+        "pid_ki": 0
+    }
+}
