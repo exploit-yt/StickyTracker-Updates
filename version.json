@@ -1,5 +1,5 @@
 {
-    "version": "0.0.2",
-    "changelog": "Nueva actualización",
-    "zip_url": "https://github.com/exploit-yt/StickyTracker-Updates/releases/download/update/StickyTrackerAI.v0.0.2.full.zip"
+    "version": "0.0.3",
+    "changelog": "- Se arregló problemas de compatibilidad con capturadoras con DirectShow.\n- Se modificó la autodetección de la capturadora, ahora se elige manualmente desde el panel.\n- Se añadió formato de captura MSS para tener más compatibilidad en AMD en caso de no funcionar DXcam.\n- Se optimizaron varias cosas internas del script.\n- Se añadió punto de información en todos los ajustes.",
+    "zip_url": "https://github.com/exploit-yt/StickyTracker-Updates/releases/download/update/StickyTrackerAI.v0.0.3.zip"
 }
