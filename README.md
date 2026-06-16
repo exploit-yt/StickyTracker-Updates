@@ -1,17 +1,21 @@
-### 📝 Update Notes (v0.0.5)
+📢 Urgent Update: Version 0.0.6 Now Available!
 
-**🎮 Hardware Compatibility Improvements**
-* **Extended Support for PS5 and Pro Controllers:** We have greatly improved the detection and compatibility with third-party controllers. The system now natively recognizes models such as **DualSense Edge, Razer, Nacon, Scuf, Victrix**, and others.
+Hello everyone. We've just rolled out a new mandatory system update to continue providing the best possible experience, compatibility, and performance.
 
-* **Developer Note:** Although the integration has been rewritten to be much more robust, due to the large number of third-party models, there may still be some isolated bugs. **We are very attentive to your feedback!** If you notice any issues with your controller, please let us know so we can fix them in the next patch.
+What does this update include?
 
-**🤖 New Aim Dynamics and Prediction System**
-* **Target Prediction:** A new predictive module that calculates where the target will move. It includes advanced settings for Prediction Frames, Prediction Gradual Appearance Range, Alpha Speed, and Smart Aiming Force for complete control over shot anticipation.
+🔒 Infrastructure Improvements: We've updated our backend systems and server connection protocols. This ensures greater security, stability, and much more robust hardware (HWID) validation.
 
-* **Lock Smoothing & Damping:** The way the system moves the camera has been rewritten. With the new Lock Smoothing and Damping, jerky movements and shakiness disappear, resulting in much smoother, more human-like tracking.
+🧠 AI Engine Update: We've made significant changes to the TensorRT and CUDA providers. However, to avoid complicated configurations and ensure the best performance, we strongly recommend playing using DML. It's currently the most stable option.
 
-* **Lock Grace Frames:** If your target hides behind an obstacle for a fraction of a second, the system will maintain lock-on for a specified number of frames, preventing stuttering upon reappearance.
+🎮 PS5 Controller Support: PS5 controllers are now automatically emulated as Xbox controllers, greatly improving compatibility. Please note that this feature is a recent implementation, so some bugs or occasional disconnections may still occur. We'll continue to refine it in upcoming patches.
 
-* **Maximum Detections:** You can now limit how many targets are processed on screen simultaneously to prioritize performance and prevent the camera from jumping around in areas with many players.
+🛠️ Various Adjustments: We've added and modified several internal "under the hood" settings to prepare the ground for future updates.
 
+⚠️ Important Notices:
 
+Mandatory Update: Due to significant changes in the server infrastructure, previous versions (0.0.5 or lower) will no longer sync. Please use the automatic updater or download the latest version to maintain access.
+
+Minor Console Errors: As this is such a large structural update, you may see some warnings or "common errors" in the program's text console. Please disregard them; they do not affect the application's functionality or performance.
+
+Thank you for your trust and enjoy the improvements!
